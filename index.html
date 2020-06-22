@@ -1,27 +1,80 @@
 <!doctype html>
 <html>
-    <head>
+<head>
     <meta charset="UTF-8">
     <title>Wolves</title>
     </head>
+<body>
     
-    <body>
-        <h1>Wolves</h1>
-        <hr>
-        <h2>What do Wolves eat?</h2>
-        <img alt="Wolf Eating Meat Stock Photos - Download 371 Royalty Free Photos" class="n3VNCb" src="https://thumbs.dreamstime.com/b/grey-wolf-eating-meat-forest-173943433.jpg" jsname="HiaYvf" jsaction="load:XAeZkd;" data-iml="11663.735000009183" style="width: 383px; height: 255.174px; margin: 0px;">
-        <h3 style="color: crimson">Meat</h3>
-        <p>Wolves are carnivorous creatures that usually feed on larged hoofed animals. They also tend to feed on smaller rodents.</p>
-        <hr>
-        <h2>Where do Wolves live?</h2>
-        <img alt="Habitat - Grey Wolves AH 2013" class="n3VNCb" src="https://sites.google.com/site/greywolvesah2013/_/rsrc/1366765305894/habitat/worldmap_graywolf.png" jsname="HiaYvf" jsaction="load:XAeZkd;" data-iml="12325.604999961797" style="width: 434px; height: 236.375px; margin: 0px;">
-        <h3 style="color: crimson">North America, Europe, Asian and North Africa</h3>
-        <p>Wolves can be found in the remote wilderness</p>
-        <hr>
-        <h2>How do Wolves behave?</h2>
-        <img alt="The wolf pack: sharp teeth and strong family units - BBC Science ..." class="n3VNCb" src="https://images.immediate.co.uk/production/volatile/sites/4/2018/11/GettyImages-1048926308-5261ab4.jpg?quality=90&amp;resize=940%2C400" jsname="HiaYvf" jsaction="load:XAeZkd;" data-iml="4589.5800000289455" style="width: 434px; height: 184.681px; margin: 13.5596px 0px;">
-        <h3 style="color: crimson">Wolf Packs</h3>
-        <p>Wolves are territorial and like to stick in packs from 6-8. They are lead by an alpha and sometimes the alpha's offspring would be apart of that pack.</p>
-        
+   <h1 style="color: aquamarine">Wolves</h1>
+    <hr>
+    <style>
+        body {background-color: darkgrey;}
+        h2   {color: blueviolet;}
+        p    {color: darkorange;}
+        .list {color: deeppink;}
+        #tablename {color: darkmagenta;}
+        #othertablename {color: aliceblue;}
+    </style>
+   
+    <h2>What do wolves eat?</h2>
+    <img src="Images/Wolf%20eating.jpg" alt="Wolf eating meat" height="180">
+    <h3 style="color: crimson">Meat</h3>
+    <p>Wolves are carnivorous creatures that usually feed on larged hoofed animals. They also tend to feed on smaller rodents. More info is listed on the sight below</p>
+    <a href="https://ukwct.org.uk/index.php?page=kids-den-what-do-wolves-eat" target="_blank"> Visit Kid's Den!</a>
+    <hr>
+    <h2>Where do wolves live?</h2>
+    <p>Wolves can be located in North America, Europe, Asian and North Africa. Their habitats are found in the remote wilderness. Here is a look at some of the population numbers in the United States.</p>
+   
+    <table style="width: 100%">
+    <tr>
+        <th id="tablename">Region</th>
+        <th id="othertablename">Wolf Population</th>
+        </tr>
+    <tr>
+        <td>Southwest</td>
+        <td>163</td>
+        </tr>
+    
+    <tr>
+        <td>Pacific North West</td>
+        <td>310</td>
+        </tr>
+    <tr>
+        <td>Northern Rocky Mountains</td>
+        <td>1,900</td>
+        </tr>
+    <tr>
+        <td>Western Great Lake States</td>
+        <td>4,222</td>
+        </tr>
+    <tr>
+        <td>Alaska</td>
+        <td>7,000-11,000</td>
+        </tr>
+    </table>
+    <a href="Wolfpage.html">Wolfpage</a>
+    <hr>
+   
+    <h2>How do wolves behave?</h2>
+    <img src="Images/Wolf%20pack.jpeg" alt="Wolf Pack" height="180">
+    <p>Wolves are territorial and like to stick in packs from 6-8. They are lead by an alpha and sometimes the alpha's offspring would be apart of that pack. Here's a look at the wolf pecking order.</p>
+    
+    <ul>
+    <li class="list">Alpha Male</li>
+    <li class="list">Aplha Female</li>
+    <li class="list">Beta</li>
+    <li class="list">Omega</li>
+    <li class="list">The rest of the pack</li>
+    </ul>
+    <button type="button" onclick="my function()">Click here</button>
+    <p id="demo">What do you call a wolve that is lost?</p>
+  <script>
+function myFunction() { 
+  document.getElementById("demo").innerHTML = "A where-wolf!";
+}
+</script>
+
     </body>
+
 </html>
